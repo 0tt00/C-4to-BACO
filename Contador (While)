@@ -1,0 +1,63 @@
+      bool salir = false;
+                 while(!salir)
+        {
+             Console.WriteLine("Ingresa la opción que deseas: ");
+             Console.WriteLine("");
+             Console.WriteLine("1) Sumar un número.");
+             Console.WriteLine("");
+             Console.WriteLine("2) Salir. ");
+                  int opcionesmenu = Convert.ToInt32(Console.ReadLine());
+
+                  Console.Clear();
+               switch (opcionesmenu)
+                       
+
+           {
+
+                   case 1:
+                                                
+            Console.WriteLine("Bienvenido");
+            Console.WriteLine("");
+
+            Console.WriteLine("");
+             Console.WriteLine("Ingrese un NÚMERO:");
+            int numero = Convert.ToInt32(Console.ReadLine());
+
+            
+            int contador = 1;
+            int sumatoria = 0;
+
+            while(contador <= numero)
+            {
+                Console.WriteLine(contador);
+                sumatoria = sumatoria + contador;
+                contador = contador + 1;
+            }
+
+            Console.WriteLine("La suma de estos números es: " + sumatoria);
+
+            Console.WriteLine("");
+            Console.WriteLine("Presione una tecla para volver al menu:");
+            Console.ReadKey();
+            Console.Clear();
+            break;
+
+                   case 2:
+
+            Console.WriteLine("Has escogido la opción de salir: ");
+            Console.WriteLine("");
+            Console.WriteLine("Presione una tecla para salir, bye.");
+           
+
+            Console.ReadLine();
+            salir = true;
+            break;
+
+            
+                     }
+
+
+            
+            
+            
+            }
