@@ -1,0 +1,49 @@
+ bool salir = false;
+            while(!salir)
+            {      
+
+            
+            
+                Console.WriteLine("1) Ver TABLAS DE MULTIPLICAR ");
+            Console.WriteLine("");
+            Console.WriteLine("2)SALIR");
+            Console.WriteLine("");
+            Console.WriteLine("Ingrese la opción que quiere:");
+                int opcion = Convert.ToInt32(Console.ReadLine());
+                Console.Clear();
+
+                switch (opcion)
+                {
+                    case 1:
+
+                        
+                Console.WriteLine("Elegiste la opción de VER TABLAS ");
+                Console.WriteLine("");
+            Console.WriteLine("Ingrese el número:");
+            int numero = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("");
+            Console.WriteLine("Ingrese el número hasta donde desea llegar:");
+            int hasta = Convert.ToInt32(Console.ReadLine());
+
+            for (int contador = 1; contador <= hasta; contador++ )
+            {
+                Console.WriteLine(Convert.ToString(numero + "X" + contador + "=" + (contador * numero)));
+            }
+            Console.WriteLine("");
+            Console.WriteLine("");
+            break;
+            Console.Clear();
+           
+            
+
+                    case 2:
+            Console.WriteLine("Has elegido Salir ");
+            Console.WriteLine("");
+            Console.WriteLine("Presione una tecla para salr ");
+
+            Console.ReadLine();
+            salir = true;
+            break;
+                }
+
+}
