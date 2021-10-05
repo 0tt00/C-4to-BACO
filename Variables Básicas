@@ -1,0 +1,22 @@
+  //Definición de variables.
+            double num1, num2, resultado, mult, res, div;
+
+            //Ingreso de datos.
+            Console.WriteLine("Ingrese un número");
+
+            //Lectura de datos y conversión.
+            num1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Ingrese el segundo número");
+            num2 = Convert.ToDouble(Console.ReadLine());
+            resultado = num1 + num2;
+                Console.WriteLine("La Suma es:" + resultado);
+                res = num1 - num2;
+                Console.WriteLine("La Resta es:" + res);
+                mult = num1 * num2;
+                Console.WriteLine("La Multiplicación es:" + mult);
+                div = num1 / num2;
+                Console.WriteLine("La División es:" + div);
+                Console.WriteLine("Muchas Gracias Dios Te BENDIGA");
+
+
+            Console.ReadLine();
