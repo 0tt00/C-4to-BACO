@@ -1,0 +1,67 @@
+  char voconso;
+            
+            Console.WriteLine("Digite: Un Número, Una Vocal O Una consonante");
+            Console.WriteLine("Si es Vocal O Consonante (Escribirlo en Minusculas)");
+            
+            voconso = Convert.ToChar(Console.ReadLine());
+
+            
+
+            switch (voconso)
+            {
+
+                case 'a':
+
+                    Console.WriteLine("Es una Vocal");
+
+                    break;
+
+                case 'e':
+
+                    Console.WriteLine("Es una Vocal");
+
+                    break;
+
+                case 'i':
+
+                    Console.WriteLine("Es una Vocal");
+
+                    break;
+
+                case 'o':
+
+                    Console.WriteLine("Es una Vocal");
+
+                    break;
+
+                case 'u':
+
+                    Console.WriteLine("Es una Vocal");
+
+                    break;
+
+                case 'b':
+
+                    Console.WriteLine("Es una Consonante");
+
+                    break;
+
+                case 'c':
+
+                    Console.WriteLine("Es una Consonante");
+
+                    break;
+
+                case 'd':
+
+                    Console.WriteLine("Es una Consonante");
+
+                    break;
+
+                case 'f':
+
+                    Console.WriteLine("Es una Consonante");
+                    
+                    }
+                    
+                    Console.ReadLine();
