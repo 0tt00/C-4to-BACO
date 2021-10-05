@@ -1,0 +1,13 @@
+
+
+           int a = 0, b = 1, contador = 0, num;
+
+            num = Convert.ToInt32(textBox1.Text);
+             while (contador <= num)
+             {
+                 listBox1.Items.Add(+ contador );
+
+                     a = b;
+                     b = contador ;
+                     contador  = a + b;
+             }
