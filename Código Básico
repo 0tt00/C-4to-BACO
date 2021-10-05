@@ -1,0 +1,21 @@
+double boletos, dinero, result, vuelto;
+
+            Console.WriteLine("Bienvenido a nuestra Tquilla de boletos");
+            Console.WriteLine("El valor del boleto es de Q.35.00");
+            Console.WriteLine("Ingrese el número de voletos que desea:");
+
+            boletos = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Ingrese el monto de dinero con el pagará:");
+
+            dinero = Convert.ToDouble(Console.ReadLine());
+
+            result = boletos * 35;
+
+            Console.WriteLine("El monto a pagar es de:" + result);
+
+            vuelto = dinero - result;
+
+            Console.WriteLine("Su vuelto es de:" + vuelto);
+
+            Console.WriteLine("Muchas Gracias por comprar");   
