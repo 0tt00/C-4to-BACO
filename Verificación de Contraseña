@@ -1,0 +1,31 @@
+string  nomb, contra ; 
+
+
+            Console.WriteLine("Ingrese su Nombre:");
+
+            nomb = Convert.ToString(Console.ReadLine());
+
+            Console.WriteLine("Ingrese su contraseña:");
+
+            Console.WriteLine("Recuerde que si estudia en el Colegio América Latina su contraseña es (ieal2021)");
+
+            contra = Convert.ToString(Console.ReadLine());
+            
+            
+             if ( contra == "ieal2021")
+           
+            {
+                Console.WriteLine("La contraseña es CORRECTA");
+
+            }
+
+            else
+            
+             {
+                 Console.WriteLine("La contraseña es INCORRECTA la contraseña era (ieal2021)");
+             }
+
+
+             Console.WriteLine("Su nombre es: " + nomb);
+             
+             Console.ReadLine();
