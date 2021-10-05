@@ -1,0 +1,75 @@
+bool salir = false;
+
+            while(!salir)
+
+            {
+              Console.WriteLine("Bienvenido al menu de números PARES e IMPARES");
+               Console.WriteLine("");
+                Console.WriteLine("Ingrese el número de la opción que desea:");
+                 Console.WriteLine("");
+
+                Console.WriteLine("1) NÚMEROS PARES");
+                Console.WriteLine("");
+                Console.WriteLine("2) NÚMEROS IMPARES");
+                Console.WriteLine("");
+                Console.WriteLine("3) SALIR ");
+               
+                int opcionesmenu = Convert.ToInt32(Console.ReadLine());
+
+                Console.Clear();
+
+                switch (opcionesmenu)
+
+                {
+                    case 1: 
+
+                        Console.WriteLine("Has elegido la opción de NÚMEROS PARES");
+
+                        int par = 2;
+                        while (par <= 22)
+                        {
+                            Console.WriteLine(Convert.ToString(par) + "");
+                            par = par + 2  ;
+                        }
+                         
+
+                        Console.WriteLine("Presione una tecla para volver al menu principal");
+
+                        Console.ReadKey();
+                        System.Console.Clear();
+                        break;
+
+
+                    case 2:
+
+                         Console.WriteLine("Has elegido la opción de NÚMEROS IMPARES");
+
+                             int impar = 1;
+                        while (impar <= 22)
+                        {
+                            Console.WriteLine(Convert.ToString(impar) + "");
+                            impar = impar + 2  ;
+                        }
+                         
+
+                        Console.WriteLine("Presione una tecla para volver al menu principal");
+
+                        Console.ReadKey();
+                        System.Console.Clear();
+                        break;
+
+
+                    case 3: 
+
+                        Console.WriteLine("Has elegido SALIR");
+
+                            Console.ReadLine();
+                        salir = true;
+                        break;
+
+                }
+
+
+
+
+            }
