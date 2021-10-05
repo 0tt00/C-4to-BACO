@@ -1,0 +1,23 @@
+
+SINTAXIS DE UN CONTADOR 
+
+Entero contador
+contador = 0
+Bucle
+        //... instrucciones
+        contador = contador + 1
+        //... instrucciones
+FinBucle
+
+
+CONTADOR FOR
+
+ int dato, contador;
+            contador = 0;
+            for(dato = 900; dato <= 8700; dato = dato + 1)
+            {
+                if (dato % 7 == 0)
+                    contador = contador + 1;
+            }
+            Console.WriteLine("El conteo es: "+contador);
+            Console.ReadLine();
